@@ -2,7 +2,7 @@ FROM node:10
 
 LABEL maintainer "Takuro Fukamizu <takuro.f.1987@gmail.com>"
 
-ARG AWS_CLI_VERSION
+ARG AWS_CLI_VERSION=1.16.98
 
 RUN set -ex; \
     apt-get update; \
